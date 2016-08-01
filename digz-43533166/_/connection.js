@@ -5,7 +5,7 @@ appTop.conn = {
 
 	debugging: false,
 	timeout_id: 0,
-	timeout_length: 200, // milliseconds to pause before prompting
+	timeout_length: 1000, // milliseconds to pause before prompting
 	current_mode: '', // online or offline
 	iframe_exists: false,
 
