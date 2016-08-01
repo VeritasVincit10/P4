@@ -92,7 +92,7 @@ appTop.conn = {
 			   frameborder: 0,
 			   scrolling: 'yes',
 			   allowfullscreen: '',
-			   document.getElementById('iframe').style.height = document.getElementById('theParent').offsetHeight + 'px';
+			  
 			   }).appendTo('#online');
 		}
 
