@@ -14,29 +14,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 
         <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsQkg5U1FOMd0VZc6wY8Q3y9X4naEXe2s&sensor=true"></script>
-        <script type="text/javascript">
-        	function createShortcodeGoogleMap(_latitude,_longitude, _zoom, auto_zoom, data, map_id){
-			var mapCenter  = new google.maps.LatLng(_latitude,_longitude);
-    			var mapOptions = {
-				zoom: _zoom,
-		            center: mapCenter,
-		            disableDefaultUI: false,
-		            scrollwheel: false,
-		            styles: mapStyles,
-		            mapTypeControlOptions: {
-		                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-		                position: google.maps.ControlPosition.LEFT_TOP
-		            },
-		            panControl: false,
-		            zoomControl: true,
-		            zoomControlOptions: {
-		                style: google.maps.ZoomControlStyle.LARGE,
-		                position: google.maps.ControlPosition.RIGHT_TOP
-            }
-        };
-        <script>
-
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.2.exp&sensor=false"></script>
         <script type="text/javascript" src="connection.js"></script>
         <script type="text/javascript" src="init.js"></script>
 
