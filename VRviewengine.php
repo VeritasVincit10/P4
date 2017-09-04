@@ -2,9 +2,9 @@
 /*
 * Plugin Name: VR view engine - Photo Sphere and 360 video
 * Description: Add photosphere and 360 video to wordpress pages, post etc. Google cardboard compatible.
-* Version: 1.5.7
+* Version: 1.6.6
 * Author: Mamadou Fadiga 
-* Author GitHub: Yungbuck100
+* Author GitHub: Yungbuck100 - this was my old github name
 */
 
 defined( 'ABSPATH' ) or die( 'Certain' );
